@@ -28,8 +28,14 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Ivon                | Lembrete de devolução do livro     | Que eu pare de levar multas da igreja  |
+|Ivon                | Vizualizar quais livros estão dispo| Não ir atoa buscar um livro que não tem|
+|                    | niveis                             |                                        |
+|Angelo              | Reservar o livro antes de ir buscar| Para garantir que ninguem o alugue     |
+|Brenda              | Externder o aluguel online         | para não me locomover ate la so para   |
+|                    |                                    | externder o aluguel                    |
+|Willian             | Avaliar o livro pelo aplicativo    | para os usuarios poderem ver se o livro|
+|                    |                                    | vale a pena de ler                     |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
