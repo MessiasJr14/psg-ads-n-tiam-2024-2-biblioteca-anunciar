@@ -28,8 +28,14 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Ivon                | Lembrete de devolução do livro     | Que eu pare de levar multas da igreja  |
+|Ivon                | Vizualizar quais livros estão dispo| Não ir atoa buscar um livro que não tem|
+|                    | niveis                             |                                        |
+|Angelo              | Reservar o livro antes de ir buscar| Para garantir que ninguem o alugue     |
+|Brenda              | Externder o aluguel online         | para não me locomover ate la so para   |
+|                    |                                    | externder o aluguel                    |
+|Willian             | Avaliar o livro pelo aplicativo    | para os usuarios poderem ver se o livro|
+|                    |                                    | vale a pena de ler                     |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
@@ -77,32 +83,32 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+ID     | Descrição do Requisito                                             | Prioridade
+-------|--------------------------------------------------------------------|------------
+RF-001 | O sistema deve permitir o cadastro e login de usuários.            | ALTA
+RF-002 | O sistema deve fornecer um catálogo de livros físicos com busca e filtros por título, autor, ou categorias. | ALTA
+RF-003 | O sistema deve permitir que os usuários façam reservas e empréstimos de livros disponíveis. | ALTA
+RF-004 | O sistema deve manter um histórico de empréstimos e devoluções por usuário. | ALTA
+RF-005 | O sistema deve enviar notificações para lembrar os usuários sobre prazos de devolução, novos livros adicionados, e atualizações importantes. | ALTA
+RF-006 | O sistema deve permitir que os usuários avaliem e comentem os livros que leram. | MÉDIA
+RF-007 | O sistema deve fornecer um painel administrativo para que os bibliotecários possam gerenciar o catálogo de livros, reservas, e empréstimos. | ALTA
+RF-008 | O sistema deve gerar relatórios sobre o número de empréstimos, livros mais e menos emprestados, histórico de empréstimos, e outros dados relevantes. | MÉDIA
+RF-009 | O sistema deve recomendar livros aos usuários com base em seus empréstimos anteriores. | MÉDIA
+RF-010 | O sistema deve organizar os livros em diversas categorias, como Religião, Estudos Bíblicos, Ficção Cristã, entre outros. | ALTA
+RF-011 | O sistema deve permitir que os usuários adicionem livros à lista de desejos para futura leitura ou reserva. | MÉDIA
+RF-012 | O sistema deve mostrar a disponibilidade dos livros em tempo real, indicando se estão emprestados ou disponíveis. | ALTA
+
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+ID      | Descrição do Requisito                                                         | Prioridade
+--------|-------------------------------------------------------------------------------|------------
+RNF-001 | O sistema deve ser responsivo e otimizado para dispositivos móveis.            | ALTA
+RNF-002 | O sistema deve processar requisições dos usuários em no máximo 3 segundos.     | MÉDIA
+RNF-003 | O sistema deve suportar dispositivos iOS e Android.                            | ALTA
+RNF-004 | O sistema deve ter uma interface amigável e intuitiva.                         | ALTA
+RNF-005 | O sistema deve garantir a segurança dos dados dos usuários, com criptografia para senhas e outras informações sensíveis. | ALTA
+RNF-006 | O sistema deve ser capaz de operar offline, permitindo que os usuários acessem o catálogo de livros baixados previamente. | MÉDIA
 
 ## Restrições
 
